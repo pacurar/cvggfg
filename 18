@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+</head>
+<div data-rel="page" id="pagina_doi" >
+    <div data-role="header">
+	   <h1>titlul la casuta de mesaj</h1>
+    </div>
+    <div data-role="main">
+      <p> Hello </p>
+	  <input type="button" value="button1">
+	  <hr>
+	  <button class="ui-btn ui-btn-inline ui-icon-black ui-btn-icon-right">button 2
+	  </button>
+	  <button class="ui-btn ui-corner-all ui-btn-inline  ui-btn-icon-left ui-btn-arrow-r"></button>
+	  <button class="ui-btn ui-btn-inline ui-shadow  ui-btn-icon-top ui-icon-mail ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">button 222</button>
+	  <button class="ui-btn ui-btn-mini ui-btn-inline ui-btn-icon-left ui-icon-video ui-alt-icon">button 2222 </button>
+	  <hr>
+	 <div data-role="control grup" data type="horizontal">
+         <a href="#" class="ui-btn ui-btn-inline data-rel="black">button ss3</a>
+         <a href="#" class="ui-btn ui-btn-inline ui-corner-all">button 4444"</a>
+         <a href="#" class="ui-btn">Botton 5</a>
+  </div>
+  <hr>
+   <div data-role="control grup" data type="vertical">
+    <a href="#" class="ui-btn">button 3</a>
+    <a href="#" class="ui-btn">button 4</a>
+    <a href="#" class="ui-btn">Botton 5</a>
+	</div>
+	<div data-role="page" id="pageone">
+  <div data-role="header">
+    <h1>Welcome To My Homepage</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Page Two</a></li>
+        <li><a href="#">Search</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>My Content..</p>
+  </div>
+
+  <div data-role="footer">
+    <h1>My Footer</h1>
+  </div>
+</div> 
